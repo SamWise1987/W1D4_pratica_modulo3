@@ -1,0 +1,155 @@
+
+
+.backgroundImg{
+    background-image: url("./assets/gettyrf-142091105.jpeg");
+    justify-content: start;
+    background-size: cover;
+    background-position: 20% 35%;
+
+}
+
+/* Utilizzare le classi di Bootstrap per definire la struttura della pagina */
+.tour-container {
+    padding: 30px;
+  }
+  
+  .tour-image {
+    /* Aggiungere una classe per l'immagine di sfondo */
+    background-image: url('./assets/gettyrf-142091105.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px; /* Altezza da definire */
+  }
+  
+  .tour-header {
+    font-size: 3rem; /* Grandezza del font per l'intestazione */
+    color: #333; /* Colore del font */
+    margin-bottom: 1rem;
+  }
+  
+  .tour-title {
+    font-size: 2.5rem; /* Grandezza del font per il titolo */
+    color: #333; /* Colore del font */
+    margin-bottom: 0.5rem;
+  }
+  
+  .tour-description {
+    font-size: 1rem; /* Grandezza del font per la descrizione */
+    color: #666; /* Colore del font */
+    margin-bottom: 2rem;
+  }
+  
+  .tour-info {
+    font-weight: bold;
+  }
+  
+  .tour-price {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .tour-reserve-btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    background-color: #000; /* Colore di sfondo del pulsante */
+    color: #fff; /* Colore del font del pulsante */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Bootstrap media query per adattarsi alle diverse dimensioni dello schermo */
+  @media (min-width: 768px) {
+    .tour-container {
+      padding: 60px;
+    }
+  
+    .tour-image {
+      height: 500px; /* Altezza maggiore per schermi più grandi */
+    }
+    
+    .tour-header {
+      font-size: 4rem;
+    }
+  
+    .tour-title {
+      font-size: 3.5rem;
+    }
+  
+    .tour-description {
+      font-size: 1.25rem;
+    }
+  
+    .tour-price {
+      font-size: 4rem;
+    }
+  
+    .tour-reserve-btn {
+      font-size: 1.5rem;
+      padding: 15px 30px;
+    }
+  }
+  .btn-link {
+    font-size: 1rem; /* Aggiusta la dimensione del font a piacimento */
+    color: #007bff; /* Il colore del link può essere modificato a piacere */
+    text-decoration: none; /* Rimuove il sottolineato dal testo del link */
+    border: none; /* Rimuove il bordo tipico dei pulsanti */
+    background: none; /* Assicura che non ci sia uno sfondo */
+    cursor: pointer; /* Cambia il cursore in un puntatore quando si passa sopra */
+  }
+  
+
+  /* Stili opzionali per il hover */
+  .btn-link:hover,
+  .btn-link:focus {
+    text-decoration: none; /* Assicura che non ci sia il sottolineato al hover */
+    color: #0056b3; /* Cambia il colore del testo al hover, se desiderato */
+  }
+  
+
+  .dm-serif {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  #feedback {
+    background-color: #f8f9fa; /* Sfondo chiaro per evidenziare la sezione */
+}
+
+#feedback h2 {
+    color: #333; 
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#feedback form {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#user-feedbacks .card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Aggiunge un'ombra leggera per più profondità */
+}
+
+#user-feedbacks .card-title {
+    color: #333; /* Colore del titolo della card */
+}
+
+#user-feedbacks {
+    background-color: #f8f9fa; /* Modifica lo sfondo della sezione, se necessario */
+}
+.small-img{
+    width: 50px;
+    height: 50px;
+}
